@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Carlyluminatti Network Enterprise Studioverse",
+  "version": "1.0.0",
+  "description": "The 1st 100% AI-Operated Crypto Empire, Pre-sale Launchpad, Crowdsale Terminal, and Media Studioverse Extension.",
+  "author": "Carlyluminatti Network Enterprise",
+  "homepage_url": "https://carlyluminatti.network",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Carlyluminatti Enterprise Presale & Studioverse Cockpit"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "icons": {
+    "16": "icon16.svg",
+    "48": "icon48.svg",
+    "128": "icon128.svg"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+  }
+}
